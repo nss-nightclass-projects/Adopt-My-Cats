@@ -19,7 +19,7 @@ I'm the owner of a cat adoption website. I need a website that allows me to load
             <h3> CAT NAME </h3>
             <p> Breed: BREEEED </p>
             <p> Color: COLORRRR </p>
-            <p> Price: $MONEY </p>
+            <p> Price: $MONEY </p>
             <p class="disabled-cat"> Toes: TOESSSS </p>
           </div>
         </div>
