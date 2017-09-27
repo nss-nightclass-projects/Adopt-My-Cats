@@ -10,6 +10,20 @@ I'm the owner of a cat adoption website. I need a website that allows me to load
 3. Once all the cats come back:
    - They should be displayed on my page in card-like style (use Bootstrap columns to aid in this). 
    - Your card should be a `div`, it should have a nested `div` to display the cat image, it should have another nested `div` to contain all the descriptive elements (each in their own `p` tag).
+        ```
+        <div class="cat-card">
+          <div class="image-container">
+            <img src="IMAGELINK">
+          </div>
+          <div class="description-container">
+            <h3> CAT NAME </h3>
+            <p> Breed: BREEEED </p>
+            <p> Color: COLORRRR </p>
+            <p> Price: $MONEY </p>
+            <p class="disabled-cat"> Toes: TOESSSS </p>
+          </div>
+        </div>
+       ```
     - If the cat has 10 toes or less, their `p` tag that contains their number of toes should have a class of `disabled-kitty`.
     - The input and button originally shown on the page should be hidden. 
     - A new button should now appear at the top of the page: 'Get Rid Of The Disabled Ones'
